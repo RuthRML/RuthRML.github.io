@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    background-color: #BBCDD6;
+}
+
+.container {
+    background-color: white;
+    padding: 50px;
+    -webkit-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+	-moz-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+	box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+}
+
+
+.imgperfil{
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%; 
+    height: 60%;
+}
+
+.titulopagina{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42px;
+	padding: 10px;
+	text-align: center;
+	-webkit-text-fill-color: white;
+  	-webkit-text-stroke-color: black;
+  	-webkit-text-stroke-width: 1px;
+}
+
+.progress {
+  height: 35px;
+
+}
+.progress .skill {
+  font: normal 12px "Open Sans";
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-transform: uppercase;
+}
+.progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 3s;
+  background-color: #84ABBF;
+}
+
+a {
+	color: #332222;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:hover{
+	color: #493131;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.subtitulo {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	background-color: #DCE8EE;
+	text-align: center;
+	padding: 5px;
+    -webkit-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+	-moz-box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+	box-shadow: 2px 0px 4px -1px rgba(0,0,0,0.53);
+	margin: 10px;
+}
+
+.punto{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.texto{
+	text-align: justify;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
